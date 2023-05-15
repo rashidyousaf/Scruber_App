@@ -20,6 +20,7 @@ const icCheckout3 = "assets/icons/icCheckout3.png";
 const icDate = "assets/icons/icDate.png";
 const icDprofile = "assets/icons/icDprofile.png";
 const icLogo = "assets/icons/logo.png";
+const icLogo2 = "assets/icons/logo2.png";
 const icEdit = "assets/icons/icEdit.png";
 const icPlus = "assets/icons/icPlus.png";
 const icPPerson = "assets/icons/icPPerson.png";

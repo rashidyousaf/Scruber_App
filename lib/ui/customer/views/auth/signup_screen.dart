@@ -143,8 +143,7 @@ class SignupScreen extends StatelessWidget {
                       ),
                       CustmButton(
                         onTap: () {
-                          Navigator.pushNamed(
-                              context, '/serviceproviderhomeScreen');
+                          Navigator.pushNamed(context, '/addCarsScreen');
                         },
                       ),
                       SizedBox(

@@ -11,10 +11,10 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            SizedBox(height: 123.h),
+            SizedBox(height: 150.h),
             SizedBox(
-                width: 160.w,
-                height: 160.h,
+                width: 150.w,
+                height: 150.h,
                 child: Image.asset(
                   icLogo,
                   fit: BoxFit.fill,
@@ -22,13 +22,13 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 175.h,
             ),
-            Text(
-              appName,
-              style: myTS14(size: 25.sp, color: wColor),
-            ),
-            SizedBox(
-              height: 90.h,
-            ),
+            // Text(
+            //   appName,
+            //   style: myTS14(size: 25.sp, color: wColor),
+            // ),
+            // SizedBox(
+            //   height: 90.h,
+            // ),
             InkWell(
               onTap: () {
                 Navigator.pushNamed(context, '/loginScreen');
@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
             ),
             InkWell(
               onTap: () {
-                Navigator.pushNamed(context, '/loginScreen');
+                Navigator.pushNamed(context, '/serviceproviderhomeScreen');
               },
               child: Container(
                 width: 341.w,
@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: Center(
                   child: Text(
-                    asService,
+                    "Technician Sign In",
                     style: myTS14(
                         color: wColor, size: 14.sp, weight: FontWeight.w500),
                   ),

@@ -19,7 +19,7 @@ class TrackingScreen4 extends StatelessWidget {
               height: 49.h,
             ),
             Image.asset(
-              progress1,
+              progress4,
               width: 327.w,
               height: 33.h,
             ),

@@ -17,25 +17,24 @@ class LoginScreen extends StatelessWidget {
             height: 67.h,
           ),
           SizedBox(
-            width: 100.w,
-            height: 100.h,
+            width: 200.w,
+            height: 80.h,
             child: Image.asset(
-              icLogo,
+              icLogo2,
               fit: BoxFit.fill,
             ),
           ),
+
           SizedBox(
-            height: 17.h,
+            height: 100.h,
           ),
           // this section for app name
-          Text(
-            appName,
-            style:
-                myTS14(color: blackColor, size: 25.sp, weight: FontWeight.w600),
-          ),
-          SizedBox(
-            height: 20.h,
-          ),
+          // Text(
+          //   appName,
+          //   style:
+          //       myTS14(color: blackColor, size: 25.sp, weight: FontWeight.w600),
+          // ),
+
           CustomTextfield(
             preIcon: Icon(
               Icons.mail,
@@ -112,7 +111,7 @@ class LoginScreen extends StatelessWidget {
                       ],
                     ),
                     SizedBox(
-                      height: 81.h,
+                      height: 50.h,
                     ),
                     // this section for signup wih social links
                     Text(

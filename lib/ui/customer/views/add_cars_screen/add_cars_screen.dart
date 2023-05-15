@@ -20,7 +20,7 @@ class AddCarsScreen extends StatelessWidget {
             clipBehavior: Clip.none,
             children: [
               Container(
-                padding: EdgeInsets.all(20.h),
+                padding: EdgeInsets.all(15.h),
                 clipBehavior: Clip.antiAlias,
                 width: 97.w,
                 height: 97.h,

@@ -18,9 +18,7 @@ class _ServiceProviderProfileScreenState
     TabController tabController = TabController(length: 3, vsync: this);
     return Scaffold(
         backgroundColor: nBColor,
-        appBar: const CustomAppbar(
-          micon: Icons.menu,
-        ),
+        appBar: const CustomAppbar(),
         body: Padding(
           padding: EdgeInsets.only(left: 24.w, right: 24.w),
           child: Column(

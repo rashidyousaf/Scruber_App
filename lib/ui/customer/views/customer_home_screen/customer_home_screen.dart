@@ -1,4 +1,3 @@
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:scrubr_client_app/const/conts.dart';
 
@@ -37,32 +36,26 @@ class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
         backgroundColor: nBColor,
         child: ListView(
           // Important: Remove any padding from the ListView.
-          padding: EdgeInsets.zero,
+          // padding: EdgeInsets.zero,
           children: <Widget>[
-            UserAccountsDrawerHeader(
-              decoration: BoxDecoration(
-                color: nBColor,
-                borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(10.r),
-                  bottomRight: Radius.circular(10.r),
-                ),
-              ),
-              accountName: Text(
-                'Scrubr',
-                style:
-                    myTS14(size: 20.sp, weight: FontWeight.w500, color: wColor),
-              ),
-              accountEmail: const Text(""),
-              currentAccountPicture: Container(
-                  width: 150.w,
-                  height: 150.h,
-                  clipBehavior: Clip.antiAlias,
-                  decoration:
-                      BoxDecoration(borderRadius: BorderRadius.circular(50.r)),
+            SizedBox(
+              height: 30.h,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SizedBox(
+                  width: 180.w,
+                  height: 60.h,
                   child: Image.asset(
-                    icLogo,
-                    fit: BoxFit.cover,
-                  )),
+                    icLogo2,
+                    fit: BoxFit.fill,
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 36.h,
             ),
             ListTile(
               title: Row(
@@ -270,7 +263,7 @@ class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
                               height: 12.h,
                             ),
                             Text(
-                              car,
+                              "Vehicle",
                               style: myTS14(
                                   color: nBColor,
                                   size: 16.sp,
@@ -302,7 +295,7 @@ class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
                               height: 12.h,
                             ),
                             Text(
-                              service,
+                              "Wash Type",
                               style: myTS14(
                                   color: nBColor,
                                   size: 16.sp,
