@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "307984038481",
+    "project_id": "scrubrapp-b0e6f",
+    "storage_bucket": "scrubrapp-b0e6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307984038481:android:a88a720ecbbc6174141670",
+        "android_client_info": {
+          "package_name": "com.flutterlads.scrubr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307984038481-5kqjl2p7gfoskjolgepshg46obos98q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutterlads.scrubr",
+            "certificate_hash": "3074e2a12cc3d0a87a18ee8dd90541a8653dbed2"
+          }
+        },
+        {
+          "client_id": "307984038481-d15v7e6goe6ps6ubee9c8e64ahm6ale6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPR9Ik-cfBcetndk_7Xy4jFuEUuiPm7QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307984038481-d15v7e6goe6ps6ubee9c8e64ahm6ale6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307984038481-j7aaqgvd1eqoe1hprde9fo8e0praola4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.scrubrClientApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
